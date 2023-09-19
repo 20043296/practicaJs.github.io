@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Impresion de Numeros Impares</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+    <h1>Imprimir Numeros Impares</h1>
+    <p>Ingrese un rango de numeros</p>
+    <label class="ini" for="inicio">Inicio:</label>
+    <input type="number" id="inicio" min="1"><br><br>
+    <label for="fin">Fin:</label>
+    <input type="number" id="fin" min="1"><br><br>
+    <button class="boton" onclick="imprimirImpares()">Imprimir</button>
+    <button class="boton" onclick="limpiarResultado()">Limpiar</button><br><br>
+    <div id="resultado" style="border: 1px solid #ccc; padding: 10px;"></div>
+</div>
+</body>
+</html>

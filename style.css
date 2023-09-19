@@ -1,0 +1,38 @@
+/* Estilos para centrar el contenido vertical y horizontalmente */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 0;
+}
+#resultado {
+    margin-top: 20px;
+}
+.boton {
+    padding: 10px 12px; /* Ajusta el tamaño de los botones aquí */
+    margin-right: 10px; /* Espacio entre los botones */
+}
+.container {
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin: 0 auto; /* Centra el contenedor en la pantalla */
+}
+/*Estilo para el visor de imagen*/
+
+h1 {
+    margin-bottom: 20px; /* Ajusta la separación entre el h1 y los input */
+}
+
+
+
+/*Estilo ejercicio7*/

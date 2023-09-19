@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Calculadora de Damage Pokemon</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="script5.js"></script>
+</head>
+<body>
+    <div class="container">
+    <h1>Calculadora de Damage Pokemon</h1>
+    <p>Selecciona los tipos, el valor del ataque y defensa</p>
+    <label for="type1">Tipo 1:</label>
+    <select id="type1">
+        <option value="electricidad">Electricidad</option>
+        <option value="agua">Agua</option>
+        <option value="fuego">Fuego</option>
+        <option value="hierba">Hierba</option>
+    </select><br><br>
+    <label for="type2">Tipo 2:</label>
+    <select id="type2">
+        <option value="electricidad">Electricidad</option>
+        <option value="agua">Agua</option>
+        <option value="fuego">Fuego</option>
+        <option value="hierba">Hierba</option>
+    </select><br><br>
+    <label for="attack">Ataque:</label>
+    <input type="number" id="attack" min="1"><br><br>
+    <label for="defense">Defensa:</label>
+    <input type="number" id="defense" min="1"><br><br>
+    <button class="boton" onclick="calcularDaño()">Calcular Damage</button>
+    <button class="boton" onclick="limpiarResultado()">Limpiar</button><br><br>
+    <div id="resultado"></div>
+</div>
+</body>
+</html>

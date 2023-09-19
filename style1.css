@@ -1,0 +1,93 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 0;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+a{
+    color: #fff;
+}
+.logo img{
+ max-width: 100px;   
+}
+ .nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+ }
+ .nav-links li{
+    font-weight: bold;
+ }
+
+
+ /*Estilos de hereos*/
+ .hero {
+    position: relative;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+    background: url('data:image/svg+xml;base64,PHN2ZyBpZD0idmlzdWFsIiB2aWV3Qm94PSIwIDAgOTAwIDYwMCIgd2lkdGg9IjkwMCIgaGVpZ2h0PSI2MDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSI+PHJlY3Qgd2lkdGg9IjkwMCIgaGVpZ2h0PSI2MDAiIGZpbGw9IiMwMDE4MjkiPjwvcmVjdD48Zz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNyAyMTEpIj48cGF0aCBkPSJNMCAtMTQ3TDEyNy4zIC03My41TDEyNy4zIDczLjVMMCAxNDdMLTEyNy4zIDczLjVMLTEyNy4zIC03My41WiIgZmlsbD0iIzI5N0VBNiI+PC9wYXRoPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4MTEgNDA2KSI+PHBhdGggZD0iTTAgLTg5TDc3LjEgLTQ0LjVMNzcuMSA0NC41TDAgODlMLTc3LjEgNDQuNUwtNzcuMSAtNDQuNVoiIGZpbGw9IiMyOTdFQTYiPjwvcGF0aD48L2c+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTAyIDQ5OSkiPjxwYXRoIGQ9Ik0wIC04MEw2OS4zIC00MEw2OS4zIDQwTDAgODBMLTY5LjMgNDBMLTY5LjMgLTQwWiIgZmlsbD0iIzI5N0VBNiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Agrega un fondo semitransparente */
+}
+
+/* Establece estilos para el contenido dentro de .hero */
+.hero-content {
+    position: relative;
+    z-index: 1; /* Coloca el contenido sobre el fondo */
+}
+.imagen-circular {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%; /* Hace que los bordes sean circulares */
+    overflow: hidden; /* Oculta cualquier parte de la imagen fuera del círculo */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.imagen-circular img {
+    width: 100%;
+    height: auto;
+    display: block; /* Elimina el espacio extra debajo de la imagen */
+}
+
+
+
+.hero-content h1{
+    
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.hero-content p{
+   
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button{
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+}
+.cta-button:hover{
+    background-color: #dd5500;
+}
+.footer{
+    background-color: #333;
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pg0KPHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgaWQ9IndhdmUiIHN0eWxlPSJ0cmFuc2Zvcm06cm90YXRlKDBkZWcpOyB0cmFuc2l0aW9uOiAwLjNzIiB2aWV3Qm94PSIwIDAgMTQ0MCA0MjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9InN3LWdyYWRpZW50LTAiIHgxPSIwIiB4Mj0iMCIgeTE9IjEiIHkyPSIwIj48c3RvcCBzdG9wLWNvbG9yPSJyZ2JhKDExLjcwNCwgMTEuNzA0LCAxMS43MDQsIDEpIiBvZmZzZXQ9IjAlIi8+PHN0b3Agc3RvcC1jb2xvcj0icmdiYSgxNDguMzExLCAxMzUuNjQ2LCAxMDcuNjQ5LCAxKSIgb2Zmc2V0PSIxMDAlIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHBhdGggc3R5bGU9InRyYW5zZm9ybTp0cmFuc2xhdGUoMCwgMHB4KTsgb3BhY2l0eToxIiBmaWxsPSJ1cmwoI3N3LWdyYWRpZW50LTApIiBkPSJNMCw4NEwxNDQwLDg0TDI4ODAsMjUyTDQzMjAsMTY4TDU3NjAsMjEwTDcyMDAsMjk0TDg2NDAsMzc4TDEwMDgwLDIxMEwxMTUyMCwzNzhMMTI5NjAsMTY4TDE0NDAwLDMzNkwxNTg0MCwzNzhMMTcyODAsMzM2TDE4NzIwLDMzNkwyMDE2MCwyMTBMMjE2MDAsMTI2TDIzMDQwLDBMMjQ0ODAsMzM2TDI1OTIwLDEyNkwyNzM2MCwyMTBMMjg4MDAsODRMMzAyNDAsMzc4TDMxNjgwLDI5NEwzMzEyMCwzNzhMMzQ1NjAsMjEwTDM0NTYwLDQyMEwzMzEyMCw0MjBMMzE2ODAsNDIwTDMwMjQwLDQyMEwyODgwMCw0MjBMMjczNjAsNDIwTDI1OTIwLDQyMEwyNDQ4MCw0MjBMMjMwNDAsNDIwTDIxNjAwLDQyMEwyMDE2MCw0MjBMMTg3MjAsNDIwTDE3MjgwLDQyMEwxNTg0MCw0MjBMMTQ0MDAsNDIwTDEyOTYwLDQyMEwxMTUyMCw0MjBMMTAwODAsNDIwTDg2NDAsNDIwTDcyMDAsNDIwTDU3NjAsNDIwTDQzMjAsNDIwTDI4ODAsNDIwTDE0NDAsNDIwTDAsNDIwWiIvPjwvc3ZnPg==');
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
